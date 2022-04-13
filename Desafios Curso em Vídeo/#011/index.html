@@ -7,20 +7,35 @@
     <title>Desafio 011</title>
     <style>
         body {
-            padding: 0%;
-            margin: 0%;
-            background-image: url('imagens/espaco.jpg');
+            padding: 0px;
+            margin: 0px;
         }
 
-        img {
-            display: block;
-            margin-left: 40%;
-            margin-top: 10%;
-            padding: 0%;
+        #cosmo {
+            height: 100vh;
+            background: black url('imagens/espaco.jpg') center no-repeat fixed;
+            background-size: cover;
+            position: relative;
+        }
+
+        #astronauta {
+            width: 500px;
+            height: 508px;
+            background-image: url('imagens/astronauta.png');
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-     <img src="imagens/astronauta.png" alt="astronauta">
+     <section id="cosmo">
+         <article id="astronauta">
+
+         </article>
+     </section>
 </body>
 </html>
