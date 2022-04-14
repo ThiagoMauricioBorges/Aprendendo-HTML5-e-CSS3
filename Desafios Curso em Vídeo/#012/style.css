@@ -54,7 +54,7 @@ article.conteiner1 {
     min-width: 100vh;
     min-height: 100vh;
     background-image: url('imagens/background001.jpg');
-    background-position: right bottom;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
